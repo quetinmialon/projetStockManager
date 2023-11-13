@@ -1,9 +1,12 @@
 
 //constructeur container principal
 
-const constructeurContainerPrincipal = ()=>{
+const constructeurContainerPrincipal = (text)=>{
 
     const containerPrincipal  = document.createElement("div");
+    containerPrincipal.textContent = text;
+
+  
 
     return containerPrincipal;
 
